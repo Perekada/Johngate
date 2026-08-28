@@ -1,7 +1,3 @@
-// The stylesheet is handled by Next.js at runtime, even when its type declaration
-// is not available to the TypeScript language service.
-// @ts-expect-error Next.js supports side-effect CSS imports in app layouts.
-import './globals.css';
 import type { Metadata } from 'next';
 import { AppLayout } from './components/AppLayout';
 
