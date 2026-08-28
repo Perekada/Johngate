@@ -17,8 +17,8 @@ export function AppLayout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <Link href="/" className="flex items-center gap-3">
-            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-500 text-lg font-black text-white">
-              JG
+            <div className="flex h-fit w-14 items-center justify-center rounded-xl text-lg font-black text-white">
+              <img src="/logo.jpg" alt="Johngate logo" className="h-full w-full rounded-xl object-cover" />
             </div>
             <div>
               <p className="text-lg font-black tracking-tight text-slate-900">Johngate</p>

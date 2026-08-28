@@ -1,25 +1,26 @@
-import herculesTyre from '../../src/Images/Herculestrye.jpg';
-import johngateTyre from '../../src/Images/motortyre.jpg';
-import battery from '../../src/Images/johngatebattery.jpg';
-import olympicBattery from '../../src/Images/olympicbattery.jpg';
-import motorTube from '../../src/Images/johngatemotortube.jpg';
-import engineBlock from '../../src/Images/engineblock.jpg';
-import generator from '../../src/Images/yangkegen big.jpg';
-import helmet from '../../src/Images/helmet.jpg';
-import cycleTyre from '../../src/Images/cycletyre.jpg';
-import oilTreatment from '../../src/Images/oiltreatment.jpg';
-import petrochemicals from '../../src/Images/petrochemicals.jpg';
-import banner from '../../src/Images/banner.jpg';
-import banner5 from '../../src/Images/banner5.jpg';
-import banner6 from '../../src/Images/banner6.jpg';
-import banner7 from '../../src/Images/banner7.jpg';
-import banner8 from '../../src/Images/banner8.jpg';
-import banner9 from '../../src/Images/banner9.jpg';
-import banner10 from '../../src/Images/banner10.jpg';
-import banner11 from '../../src/Images/banner11.jpg';
-import banner12 from '../../src/Images/banner12.jpg';
-import banner13 from '../../src/Images/banner13.jpg';
-import subBanner from '../../src/Images/sub_banner.jpg';
+// import herculesTyre from '/Images/Herculestrye.jpg';
+import herculesTyre from '../../public/Images/Herculestrye.jpg';
+import johngateTyre from '../../public/Images/motortyre.jpg';
+import battery from '../../public/Images/johngatebattery.jpg';
+import olympicBattery from '../../public/Images/olympicbattery.jpg';
+import motorTube from '../../public/Images/johngatemotortube.jpg';
+import engineBlock from '../../public/Images/engineblock.jpg';
+import generator from '../../public/Images/yangkegen big.jpg';
+import helmet from '../../public/Images/helmet.jpg';
+import cycleTyre from '../../public/Images/cycletyre.jpg';
+import oilTreatment from '../../public/Images/oiltreatment.jpg';
+import petrochemicals from '../../public/Images/petrochemicals.jpg';
+import banner from '../../public/Images/banner.jpg';
+import banner5 from '../../public/Images/banner5.jpg';
+import banner6 from '../../public/Images/banner6.jpg';
+import banner7 from '../../public/Images/banner7.jpg';
+import banner8 from '../../public/Images/banner8.jpg';
+import banner9 from '../../public/Images/banner9.jpg';
+import banner10 from '../../public/Images/banner10.jpg';
+import banner11 from '../../public/Images/banner11.jpg';
+import banner12 from '../../public/Images/banner12.jpg';
+import banner13 from '../../public/Images/banner13.jpg';
+import subBanner from '../../public/Images/sub_banner.jpg';
 
 export type Product = {
   id: number;
@@ -37,7 +38,20 @@ export const productCatalog: Product[] = [
     category: 'Tyres',
     description: 'Premium road tyre range designed for grip, comfort and durability on long journeys.',
     image: herculesTyre.src,
-    specs: ['215/70R16', '225/60R16', '245/65R17', '265/70R17'],
+    specs: ['215/70R16',
+			'215/60 R15',
+			'195/65 R15',
+			'265/65 R17',
+			'225/60 R16',
+			'205/60 R16',
+			'205/60 R15',
+			'245/65 R17',
+			'235/70 R16',
+			'265/70 R16',
+			'215/55 R17',
+			'225/65R17',
+			'245/70 R16',
+			],
   },
   {
     id: 2,
@@ -45,7 +59,18 @@ export const productCatalog: Product[] = [
     category: 'Tyres',
     description: 'Motorcycle tyre collection balancing performance, stability and confidence on the road.',
     image: johngateTyre.src,
-    specs: ['120/90-18', '180/55 ZR17', '200/50-17', '190/55-17'],
+    specs: ['120/90-18 56MM+S SCPRO',
+			'180/55 ZR17(73)(T) DIABLO',
+			'130/80-17 68V SPORTD',
+			'200/50-17',
+			'120/70 ZR17(58W) DIABLO',
+			'180/55 ZR17(73W) DIABLO',
+			'100/90 68V SPORTD',
+			'190/50-17',
+			'130/90-17 68V SPORTD',
+			'150/70-17 69H SPORTD',
+			'200/55-17 68V SPORTD',
+			'190/55-17',],
   },
   {
     id: 3,
