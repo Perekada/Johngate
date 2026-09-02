@@ -1,4 +1,4 @@
-// File: C:\Users\RAEISH\Documents\Code\Johngate.worktrees\typescript-tailwind-restructure\app\management\page.tsx
+// File: C:\Users\RAEISH\Documents\Code\Johngate\app\management\page.tsx
 import * as entry from '../../../../app/management/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
